@@ -9,11 +9,10 @@ const StoreContextProvider = (props) => {
     const [food_list, setFoodList] = useState([]);
     const [cartItems, setCartItems] = useState({});
     const [token, setToken] = useState("")
-<<<<<<< HEAD
+
     const currency = "$";
-=======
-    const currency = "₹";
->>>>>>> 1e11d4fccf5a48e58c5b8a513154a809c6af39f2
+
+
     const deliveryCharge = 50;
 
     const addToCart = async (itemId) => {
